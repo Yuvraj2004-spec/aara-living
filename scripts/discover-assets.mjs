@@ -1,0 +1,1 @@
+for (const id of ['fabric_pattern_07','wood_floor_deck','potted_plant_02']) {const d=await(await fetch('https://api.polyhaven.com/files/'+id)).json();console.log(id,Object.keys(d));if(d.gltf)console.log(JSON.stringify(d.gltf).slice(0,4000));}

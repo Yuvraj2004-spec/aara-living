@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+playwright-report/
+test-results/
+
+tsconfig.tsbuildinfo
+
+.env.*
+!.env.example
+.revisions/
+.vercel/
+.aws/
+.codex/
+.agents/
+*.log
